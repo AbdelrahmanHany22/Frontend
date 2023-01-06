@@ -79,7 +79,7 @@ export default function Payment() {
             .then(res =>  {
             if(res.data == 'Human'){
                     setLoading(true)
-                    axios.post("https://reservations-wc.vercel.app//api/v1/reservation/", postObj)
+                    axios.post("https://reservations-wc.vercel.app/api/v1/reservation/", postObj)
                     .then(res => {
                         setContactInfo({ email:'', number:'', name:'', cvc:'', month:'', year:''});
                         window.location.replace(`/success/${ticket.matchnumber}/${ticket.category}/${ticket.quantity}`)
