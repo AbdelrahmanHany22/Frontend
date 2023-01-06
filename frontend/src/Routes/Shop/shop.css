@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.shop-body{
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+}
+
+.all{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+.shop-title{
+    width: 100%;
+    font-size: xx-large;
+    color: #8A1538;
+}
+
+.shop-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+
+}
+
+.shop-matchstages{
+    font-size: xx-large;
+    color: #8A1538;
+}
+
+.shop-button{
+    border-top-left-radius: 25px;
+    background-color: #8A1538;
+    padding: 1vw;
+    color: white;
+    cursor: pointer;
+}
+
+.shop-button-border{
+    animation-name: button;
+    animation-duration: 0.5s;animation-fill-mode: forwards;
+}
+
+@keyframes button{
+    from{}
+    to{border-bottom: 10px solid #00CFB7 ;
+    border-right: 10px solid #00CFB7 ;
+    border-radius: 25px 15px 0px 15px;}
+}
+
+.shop-img{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 7vh;
+    width: 90%;
+    border-radius: 25px;
+}

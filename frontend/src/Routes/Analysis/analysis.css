@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.analysis-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #8A1538;
+    font-size: large;
+}
+
+.analysis-header{
+    font-size: xx-large;
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    border-bottom: 3px solid #FF004C;
+}
+
+.analysis-row{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 1vw;
+    border-bottom: 2px dashed #FF004C;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.match-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flag-img{
+    cursor:pointer;
+}
+
+.carousel{
+    padding: 2vw;
+    margin-bottom: 2.5vh;
+    border-radius: 25px;
+    background-image: url('../../Images/background.jpg');
+    border: 2px solid black;
+    padding-bottom: 0;
+}
+

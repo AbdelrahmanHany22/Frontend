@@ -1,0 +1,7 @@
+Primary --> #8A1538 (Burgundy)
+
+Secondary --> #FFF (White)
+
+Highlights --> #FF004C (Pinkish)
+
+Highlights --> #00CFB7 (Cyan)

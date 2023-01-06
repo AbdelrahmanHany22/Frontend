@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.datepartition-date{
+    font-size: xx-large;
+    color: #8A1538;
+}
+
+.datepartition-matchdetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
