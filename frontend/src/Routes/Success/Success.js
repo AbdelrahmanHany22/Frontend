@@ -40,7 +40,7 @@ export default function Success() {
         </div>
 
         <div className='ticket-teams fore'>
-            <div>{details.awayTeam}</div> vs <div>{details.homeTeam}</div>
+            <div>{details.awayTeam}</div>&nbsp;vs&nbsp;<div>{details.homeTeam}</div>
         </div>
         
         <div className='fore'>
